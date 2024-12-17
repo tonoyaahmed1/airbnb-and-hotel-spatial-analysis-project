@@ -1,16 +1,14 @@
-# airbnb-and-hotel-spatial-analysis-project
+# Spatial Analysis Project - Airbnb and Hotels in Popular Tourist Destinations in CA
 
-## Popular Tourist Destination - Airbnb and Hotels in CA
-
-### This project answers the following questions: 
+## This project answers the following questions: 
 - Is there a higher concentration of Airbnb and hotels in California surrounding popular tourist destinations?
 - Are there areas with higher tourist attractions and a lack of Airbnbs?
 
-### Significance of project: 
+## Significance of project: 
 
 This project is important because it can help us understand tourist behavior and their hospitality preferences. The primary business case this project can solve is whether or not certain parts of California are more profitable than others for hospitality. There are two possible expected audiences. One expected audience group is hotel/Airbnb owners. They can use this information to decide which part of California would be most profitable when considering where to buy land or a house for their business. The other expected audience group is tourists. They can use this information to see which tourist destinations have the most convenient and nearby lodging. From the distribution of hotels and Airbnb’s, they can also deduce the popularity of a particular tourist area, and approximate how many other tourists are usually in the area.
 
-### Background and Literature
+## Background and Literature
 
 - Dubetz, Alissa, et al. “Staying Power: The Effects of Short-Term Rentals on California’s Tourism Economy and Housing Affordability.” Milken Institute. https://milkeninstitute.org/sites/default/files/2022-05/Short_Term_Rentals_California.pdf
 This paper explains that short term rentals (like Airbnbs) frequent popular tourist destinations, have a very strong impact on the local economies of those areas, which in turn, expands the number of tourists that area can accommodate.
@@ -26,7 +24,7 @@ This article examines the relationship between Airbnb and traditional accommodat
 
 Overall, these references have helped specify our research problem more narrowly by providing insights into the spatial distribution of Airbnb and hotels, their relationship, and their impacts on local economies and tourism sectors. They have also influenced the formulation of hypotheses regarding the concentration of accommodations around tourist destinations in California and the potential implications for hospitality businesses and tourists.
 
-### Packages Needed to Install 
+## Packages Needed to Install 
 
 - pandas/geopandas - this will help us organize and manipulate the data
 
