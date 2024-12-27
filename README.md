@@ -8,6 +8,30 @@
 
 This project is important because it can help us understand tourist behavior and their hospitality preferences. The primary business case this project can solve is whether or not certain parts of California are more profitable than others for hospitality. There are two possible expected audiences. One expected audience group is hotel/Airbnb owners. They can use this information to decide which part of California would be most profitable when considering where to buy land or a house for their business. The other expected audience group is tourists. They can use this information to see which tourist destinations have the most convenient and nearby lodging. From the distribution of hotels and Airbnb’s, they can also deduce the popularity of a particular tourist area, and approximate how many other tourists are usually in the area.
 
+## Data sources 
+
+Airbnb dataset: This dataset is a compilation of datasets from Airbnb containing spatial and temporal data about the location and other describing factors of the Airbnb. 
+
+Tourist Dataset: This source provides OpenStreetMap data specific to Tourist Attractions in California, offering various GIS/CAD formats and thematic layers.
+
+Hotel Dataset: This dataset is a compilation of all addresses of hotels in the State of California.
+
+
+Airbnb dataset:    
+
+https://www.kaggle.com/datasets/kritikseth/us-airbnb-open-data?resource=download 
+
+Tourist Attractions:
+
+https://mygeodata.cloud/data/download/osm/tourist-attractions/united-states-of-america--california
+
+Hotel Data:
+
+https://ucsdonline.maps.arcgis.com/home/item.html?id=87a655a8d6b8439290e899cb24061f86
+
+
+When we first obtained all this data, our expectation was that we would have data for the entire state of California. Such is the case for the Hotel and Tourist Attraction data. However, for the Airbnb data, we are limited to Airbnbs in more densely populated areas within California, such as more metropolitan cities and counties (i.e Santa Clara County, Los Angeles etc.). If we were able to obtain all Airbnb locations within California, this would help our project, since we would have better analyses on locations where there are Airbnbs and hotels near tourist destinations. Since we may try to identify areas where there is a shortage of Airbnbs, the results might be biased due to lack of data.
+
 ## Background and Literature
 
 - Dubetz, Alissa, et al. “Staying Power: The Effects of Short-Term Rentals on California’s Tourism Economy and Housing Affordability.” Milken Institute. https://milkeninstitute.org/sites/default/files/2022-05/Short_Term_Rentals_California.pdf
